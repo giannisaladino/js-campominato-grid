@@ -3,3 +3,53 @@
     padding: 0;
     box-sizing: border-box;
 }
+
+body {
+    background-color: lightgreen ;
+}
+
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+.page-header {
+    background-color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 50px;
+}
+
+.play {
+    font-size: 15px;
+    padding: 0 25px;
+}
+
+.grid-wrapper {
+    padding: 20px;
+}
+
+.cell {
+    aspect-ratio: 1/1;
+    border: 2px solid white;
+    /* padding: 20px; */
+    width: calc(100% / 10);
+}
+
+.grid {
+    /* display: grid;
+    grid-template-columns: repeat(10, 1fr); */
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.cell.bg-blue {
+    background-color: rgb(38, 123, 241);
+}
+
+.page-footer {
+    background-color: white;
+    padding: 30px 50px;
+    font-size: 18px;
+}
