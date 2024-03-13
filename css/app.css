@@ -5,7 +5,7 @@
 }
 
 body {
-    background-color: lightgreen ;
+    background-color: rgb(95, 241, 95) ;
 }
 
 .container {
@@ -35,6 +35,10 @@ body {
     border: 2px solid white;
     /* padding: 20px; */
     width: calc(100% / 10);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: rgb(60, 58, 58);
 }
 
 .grid {
@@ -46,10 +50,19 @@ body {
 
 .cell.bg-blue {
     background-color: rgb(38, 123, 241);
+    color: white;
 }
 
 .page-footer {
     background-color: white;
     padding: 30px 50px;
     font-size: 18px;
+}
+
+
+
+/* utilities */
+
+.d-none {
+    display: none;
 }
